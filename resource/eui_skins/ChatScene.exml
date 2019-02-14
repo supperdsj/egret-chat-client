@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatSceneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="168eab6dcb0" ></w:Config>
+	<e:Image source="background_png" scale9Grid="177,131,94,115" left="0" right="0" top="0" bottom="0"/>
+	<e:Button id="btn_send" label="" anchorOffsetX="0" width="86.38" anchorOffsetY="0" height="47.33" x="535.62" y="1047">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="sendbtn_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:EditableText id="et_input" height="43" text="请输入文字..." anchorOffsetX="0" anchorOffsetY="0" textColor="0x0091ff" bottom="46" left="30" right="121" verticalAlign="middle"/>
+	<e:Scroller id="sc_view" anchorOffsetX="0" anchorOffsetY="0" left="30" right="30" top="30" bottom="100">
+		<e:Group id="gp_view" anchorOffsetX="0" anchorOffsetY="0"/>
+	</e:Scroller>
+</e:Skin>
